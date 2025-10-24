@@ -1,12 +1,18 @@
-# 📘 Comparativo de Algoritmos de Ordenação por Vetor
+# TDE 3 - Ordenação
 
-Este relatório compara o desempenho de diversos algoritmos de ordenação considerando **iterações** e **trocas** realizadas em três vetores distintos.
+Os algoritmos de Comb sort, Gnome sort e Bucket sort, além dos implementados em sala (Bubble sort, Selection sort e Cocktail sort) foram implementados e comparados com base nos seguintes vetores:
 
----
+Vetor 1 = {12, 18, 9, 25, 17, 31, 22, 27, 16, 13, 19, 23, 20, 30, 14, 11, 15, 24, 26, 28};
 
-## 🔢 Vetor 1
+Vetor 2 = {5, 7, 9, 10, 12, 14, 15, 17, 19, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32};
 
-### 📉 Ranking por Menor Número de Trocas
+Vetor 3 = {99, 85, 73, 60, 50, 40, 35, 30, 25, 20, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6};
+
+Vale notar que o bucket sort foi implementado com 1/4 do tamanho do vetor para tender a ser mais equilibrado em todos os tipos de vetores.
+
+## Vetor 1 (Aleatório)
+
+### Ranking por Menor Número de Trocas
 
 | Tipo de Ordenação   |   Trocas |
 |:--------------------|---------:|
@@ -17,7 +23,7 @@ Este relatório compara o desempenho de diversos algoritmos de ordenação consi
 | Cocktail Sort       |       78 |
 | Gnome Sort          |       78 |
 
-### ⚙️ Ranking por Menor Número de Iterações
+### Ranking por Menor Número de Iterações
 
 | Tipo de Ordenação   |   Iterações |
 |:--------------------|------------:|
@@ -28,15 +34,15 @@ Este relatório compara o desempenho de diversos algoritmos de ordenação consi
 | Bubble Sort         |         180 |
 | Selection Sort      |         190 |
 
-**🏆 Melhor em trocas:** Selection Sort
+Melhor em trocas: Selection Sort
 
-**⚡ Melhor em iterações:** Bucket Sort
+Melhor em iterações: Bucket Sort
 
 ---
 
-## 🔢 Vetor 2
+## Vetor 2 (Já ordenado)
 
-### 📉 Ranking por Menor Número de Trocas
+### Ranking por Menor Número de Trocas
 
 | Tipo de Ordenação   |   Trocas |
 |:--------------------|---------:|
@@ -47,7 +53,7 @@ Este relatório compara o desempenho de diversos algoritmos de ordenação consi
 | Gnome Sort          |        0 |
 | Bucket Sort         |        0 |
 
-### ⚙️ Ranking por Menor Número de Iterações
+### Ranking por Menor Número de Iterações
 
 | Tipo de Ordenação   |   Iterações |
 |:--------------------|------------:|
@@ -58,15 +64,15 @@ Este relatório compara o desempenho de diversos algoritmos de ordenação consi
 | CombSort            |         110 |
 | Selection Sort      |         190 |
 
-**🏆 Melhor em trocas:** Bubble Sort
+Melhor em trocas: Bubble Sort
 
-**⚡ Melhor em iterações:** Bubble Sort
+Melhor em iterações: Bubble Sort
 
 ---
 
-## 🔢 Vetor 3
+## Vetor 3 (Ordem inversa)
 
-### 📉 Ranking por Menor Número de Trocas
+### Ranking por Menor Número de Trocas
 
 | Tipo de Ordenação   |   Trocas |
 |:--------------------|---------:|
@@ -77,7 +83,7 @@ Este relatório compara o desempenho de diversos algoritmos de ordenação consi
 | Cocktail Sort       |      190 |
 | Gnome Sort          |      190 |
 
-### ⚙️ Ranking por Menor Número de Iterações
+### Ranking por Menor Número de Iterações
 
 | Tipo de Ordenação   |   Iterações |
 |:--------------------|------------:|
@@ -88,9 +94,8 @@ Este relatório compara o desempenho de diversos algoritmos de ordenação consi
 | Cocktail Sort       |         190 |
 | Gnome Sort          |         400 |
 
-**🏆 Melhor em trocas:** Selection Sort
+Melhor em trocas: Selection Sort
 
-**⚡ Melhor em iterações:** Bucket Sort
+Melhor em iterações: Bucket Sort
 
----
 
