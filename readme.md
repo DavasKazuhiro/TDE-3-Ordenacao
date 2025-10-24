@@ -8,7 +8,7 @@ Vetor 2 = {5, 7, 9, 10, 12, 14, 15, 17, 19, 21, 22, 23, 24, 25, 27, 28, 29, 30, 
 
 Vetor 3 = {99, 85, 73, 60, 50, 40, 35, 30, 25, 20, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6};
 
-Vale notar que o bucket sort foi implementado com 1/4 do tamanho do vetor para tender a ser mais equilibrado em todos os tipos de vetores.
+Vale notar que o bucket sort foi implementado com 1/4 do tamanho do vetor para tender a ser mais equilibrado em todos os tipos de vetores (caso tenham muitos itens em um mesmo bucket ou não).
 
 Caso queira, o arquivo resultadosSorting.csv contém todos os resultados juntos.
 
