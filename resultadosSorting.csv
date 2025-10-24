@@ -1,0 +1,19 @@
+Tipo de Ordenação,Número do Vetor,Iterações,Trocas
+Bubble Sort,1,180,78
+Bubble Sort,2,19,0
+Bubble Sort,3,190,190
+Selection Sort,1,190,18
+Selection Sort,2,190,0
+Selection Sort,3,190,10
+Cocktail Sort,1,154,78
+Cocktail Sort,2,19,0
+Cocktail Sort,3,190,190
+CombSort,1,129,22
+CombSort,2,110,0
+CombSort,3,129,18
+Gnome Sort,1,176,78
+Gnome Sort,2,20,0
+Gnome Sort,3,400,190
+Bucket Sort,1,32,22
+Bucket Sort,2,32,0
+Bucket Sort,3,63,63
