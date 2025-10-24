@@ -10,6 +10,8 @@ Vetor 3 = {99, 85, 73, 60, 50, 40, 35, 30, 25, 20, 15, 14, 13, 12, 11, 10, 9, 8,
 
 Vale notar que o bucket sort foi implementado com 1/4 do tamanho do vetor para tender a ser mais equilibrado em todos os tipos de vetores.
 
+Caso queira, o arquivo resultadosSorting.csv contém todos os resultados juntos.
+
 ## Vetor 1 (Aleatório)
 
 ### Ranking por Menor Número de Trocas
